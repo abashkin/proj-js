@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Manipulation</title>
+</head>
+
+<body>
+    <p>This is a paragraph</p>
+    <script>
+        // Step 1: Create a new <div> element
+        const newDiv = document.createElement('div');
+
+        // Step 2: Add content to the new <div>
+        newDiv.textContent = 'Hello, this is a dynamically created div!';
+
+        // Step 3: Apply some style to the <div>
+        newDiv.style.color = 'white';
+        newDiv.style.backgroundColor = "red";
+        newDiv.style.padding = '10px';
+        newDiv.style.marginTop = '10px';
+
+        // Step 4: Append the new <div> to the body of the document
+        document.body.appendChild(newDiv);
+    </script>
+
+</body>
+
+</html>

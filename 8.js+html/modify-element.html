@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Manipulation</title>
+</head>
+
+<body>
+
+    <h1 id="myHeading">Original Heading</h1>
+
+    <script>
+        // Reference to the existing <h1> element
+        const heading = document.getElementById('myHeading');
+
+        // Modify the text content of the <h1> element
+        heading.textContent = 'Modified Heading!';
+
+        // Change the color of the heading
+        heading.style.color = 'green';
+
+        // Set a new attribute
+        heading.setAttribute('class', 'highlighted-heading');
+    </script>
+
+</body>
+
+</html>

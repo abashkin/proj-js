@@ -6,7 +6,6 @@ function isEven(number) {
     } else {
         return false
     }
-
 }
 
 console.log(isEven(5));

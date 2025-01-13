@@ -1,7 +1,7 @@
 let day = new Date().getDay();
 let dayName;
 
-switch (15) {
+switch (1) {
     case 0:
         dayName = "Sunday";
         break;
@@ -24,7 +24,7 @@ switch (15) {
         dayName = "Saturday";
         break;
     default:
-        dayName = "Invalid day";
+        dayName = "Wrong day";
 }
 
 console.log(`Today is ${dayName}.`);
